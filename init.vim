@@ -64,3 +64,5 @@ require'nvim-web-devicons'.get_icons()
 
   vim.api.nvim_set_keymap('n', '<Space>e', ':NvimTreeToggle<CR>', { noremap = true, silent = true })
 EOF
+
+nnoremap <Space>w :split<CR>:terminal<CR>
